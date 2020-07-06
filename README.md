@@ -37,6 +37,10 @@ npm run serve
 - Abra o navegador, acesse `http://localhost:8080/`, e movimente o player com os botões abaixo do canvas.
 - Abra **outro navegador** no mesmo endereço, e tente mexer o player por lá agora, veja que ambos os navegadores atualizam o player simultaneamente
 
+## Melhorias
+As seguintes melhorias abaixo foram feitas por mim após o término do tutorial
+- Possibilida controlar o player pelas setas do teclado ao invés dos botões da tela
+
 ## Fluxo
 
 As anotações a seguir foram todos os passos dados no decorrer do tutorial. Anotei para consultas futuras.
