@@ -2,6 +2,8 @@
 
 Jogo criado seguindo [este](https://www.youtube.com/watch?v=JEYEpledOxs) tutorial no Youtube.
 
+![screenshot](https://github.com/Doc-McCoy/multiplayer-game-vue.js-socket.io/blob/master/screenshot/screenshot01.png)
+
 O projeto consiste em um **server** simples, que armazena a posição do player em um canvas 2D, e um **client**, que se conecta com o server e envia comandos para que o player se movimente. Tudo através do **socket.io**.
 
 ## Setup
