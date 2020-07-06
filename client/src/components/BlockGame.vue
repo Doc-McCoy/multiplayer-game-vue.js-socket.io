@@ -36,6 +36,7 @@ export default {
   // https://br.vuejs.org/v2/guide/instance.html#Ciclo-de-Vida-da-Instancia
   created() {
     this.socket = io("http://localhost:3000");
+    document.onkeydown = this.onkeydown;
   },
 
   // Função chamada logo após a instância ser montada
@@ -61,8 +62,26 @@ export default {
     });
   },
   methods: {
+    // Emite o signal "move" para o server
     move(direction) {
       this.socket.emit("move", direction);
+    },
+    // Recebe um evento de teclado e chama o move() de acordo com o keyCode
+    onkeydown(event) {
+      switch (event.keyCode) {
+        case 38:
+          this.move('up');
+          break;
+        case 40:
+          this.move('down');
+          break;
+        case 37:
+          this.move('left');
+          break;
+        case 39:
+          this.move('right');
+          break;
+      }
     }
   }
 }
