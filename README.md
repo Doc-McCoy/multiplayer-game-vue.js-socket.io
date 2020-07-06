@@ -39,6 +39,7 @@ npm run serve
 
 As anotações a seguir foram todos os passos dados no decorrer do tutorial. Anotei para consultas futuras.
 
+- Criar a pasta `server` e acessá-la
 - Inicializar projeto node
 - `npm init -y`
 - Criar arquivo `app.js`, que será o server
