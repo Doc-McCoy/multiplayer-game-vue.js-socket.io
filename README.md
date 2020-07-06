@@ -1,6 +1,6 @@
 # Jogo 2D Multiplayer com Vue.js e Socket.io
 
-Jogo criado seguindo [este](https://www.youtube.com/watch?v=JEYEpledOxs) tutorial no Youtube.
+Jogo criado seguindo [este](https://www.youtube.com/watch?v=JEYEpledOxs) tutorial, da **LogRocket**, no Youtube.
 
 ![screenshot](https://github.com/Doc-McCoy/multiplayer-game-vue.js-socket.io/blob/master/screenshot/screenshot01.png)
 
